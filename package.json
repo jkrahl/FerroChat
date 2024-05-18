@@ -8,7 +8,7 @@
     "build": "vite build",
     "preview": "vite preview"
   },
-  "author": "Jan Krahl <jan.krahl@autonoma.cat>, David Sola <david.solam@autonoma.cat>, Daniel Chen <haochengdaniel.qiu@autonoma.cat>",
+  "author": "Jan Krahl <jan.krahl@autonoma.cat>, David Sola <david.solam@autonoma.cat>, Daniel Qiu <haochengdaniel.qiu@autonoma.cat>",
   "devDependencies": {
     "vite": "^5.2.0"
   }
