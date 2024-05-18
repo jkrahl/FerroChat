@@ -1,0 +1,100 @@
+﻿Nom_estacion_FGC;ID;Coordenadas_estacion;IQAM;NO2;O3;PM10;Identificador_estacion;Estacion_XVPCA
+La Bonanova;BN;41.39781569, 2.136433966;MODERAT;40.0;70.0;;IJ;Barcelona (Gràcia - Sant Gervasi)
+Les Tres Torres;TT;41.39780042, 2.130811822;MODERAT;40.0;70.0;;IJ;Barcelona (Gràcia - Sant Gervasi)
+Les Fonts;FN;41.52846982, 2.033582202;MODERAT;7.0;92.0;;AT;Sant Cugat del Vallès (parc de Sant Francesc)
+Bellaterra;BT;41.50085844, 2.090556583;MODERAT;7.0;92.0;;AT;Sant Cugat del Vallès (parc de Sant Francesc)
+Magòria La Campana;MG;41.36748768, 2.138879447;BO;7.0;;;ID;Barcelona (Sants)
+Gornal;GO;41.35488589, 2.117431558;MODERAT;8.0;;24.1;I3;l'Hospitalet de Llobregat (av. del Torrent Gornal)
+L'Hospitalet Av. Carrilet;LH;41.35793378, 2.102709519;MODERAT;8.0;;24.1;I3;l'Hospitalet de Llobregat (av. del Torrent Gornal)
+Almeda;AL;41.35306747, 2.085251402;MODERAT;8.0;;24.1;I3;l'Hospitalet de Llobregat (av. del Torrent Gornal)
+Molí Nou - Ciutat Cooperativa;ML;41.35751473, 2.035276936;MODERAT;12.0;94.0;21.6;I8;Sant Vicenç dels Horts (Ribot - Sant Miquel)
+Colònia Güell;CG;41.36386336, 2.031859416;MODERAT;12.0;94.0;21.6;I8;Sant Vicenç dels Horts (Ribot - Sant Miquel)
+Santa Coloma de Cervelló;CL;41.37064766, 2.023520241;MODERAT;12.0;94.0;21.6;I8;Sant Vicenç dels Horts (Ribot - Sant Miquel)
+Sant Vicenç dels Horts;VH;41.38810839, 2.012398952;MODERAT;12.0;94.0;21.6;I8;Sant Vicenç dels Horts (Ribot - Sant Miquel)
+Can Ros;CR;41.39882061, 2.005346458;BO;9.0;;;IP;Sant Vicenç dels Horts (Àlaba)
+Pallejà;PA;41.42078685, 1.995677605;BO;8.0;;;IQ;Pallejà (Roca de Vilana)
+Sant Andreu de la Barca;SA;41.44648001, 1.973673502;MODERAT;16.0;;28.2;IC;Sant Andreu de la Barca (CEIP Josep Pla)
+El Palau;PL;41.45588074, 1.9622947;MODERAT;16.0;;28.2;IC;Sant Andreu de la Barca (CEIP Josep Pla)
+Martorell Vila;MV;41.4758714, 1.938956855;MODERAT;16.0;;28.2;IC;Sant Andreu de la Barca (CEIP Josep Pla)
+Olesa de Montserrat;OL;41.54105908, 1.888618922;MODERAT;16.0;;28.2;IC;Sant Andreu de la Barca (CEIP Josep Pla)
+Montserrat-Aeri;AE;41.59119812, 1.853361605;;;;;sense valors;
+Castellbell i El Vilar;CB;41.64051706, 1.854793522;;;;;sense valors;
+Manresa Viladordis;VI;41.72436991, 1.83398595;;;;;sense valors;
+Vallbona d'Anoia;VA;41.52025979, 1.709010719;;;;;sense valors;
+La Pobla de Claramunt;PO;41.55461094, 1.677906247;;;;;sense valors;
+Igualada;IG;41.57802651, 1.629951133;;;;;sense valors;
+Monistrol-Vila;MP;41.61562791, 1.843723316;;;;;sense valors;
+Àger;AR;42.006741, 0.851596;;;;;sense valors;
+Cornellà Riera;CO;41.35147828, 2.071263627;MODERAT;11.0;96.0;;G5;El Prat de Llobregat (CEM Sagnier)
+Terrassa  Estació del nord;EN;41.5701675, 2.015487;BO;14.0;;;B9;Barberà del Vallès (Moragues - Montserrat)
+Sabadell Nord;NO;41.561225, 2.096657;BO;14.0;;;B9;Barberà del Vallès (Moragues - Montserrat)
+Sabadell Parc del Nord;PN;41.571291, 2.089499;BO;14.0;;;B9;Barberà del Vallès (Moragues - Montserrat)
+Térmens;RM;41.717644, 0.764899;;;;;sense valors;
+Gerb;GB;41.823301, 0.812079;;;;;sense valors;
+Cellers-Llimiana;LL;42.058631, 0.882707;;;;;sense valors;
+La Pobla de Segur;PS;42.239877, 0.965917;;;;;sense valors;
+St. Llorenç de Montgai;SM;41.866379, 0.832571;;;;;sense valors;
+Pl. Catalunya;PC;41.38563194, 2.168720219;MODERAT;23.0;81.0;19.8;IH;Barcelona (l'Eixample)
+Gràcia;GR;41.39909823, 2.152662325;MODERAT;40.0;70.0;;IJ;Barcelona (Gràcia - Sant Gervasi)
+Sant Gervasi;SG;41.40106608, 2.147133783;MODERAT;40.0;70.0;;IJ;Barcelona (Gràcia - Sant Gervasi)
+Muntaner;MN;41.39852644, 2.142346041;MODERAT;40.0;70.0;;IJ;Barcelona (Gràcia - Sant Gervasi)
+Baixador de Vallvidrera;VL;41.42009441, 2.096936777;MODERAT;13.0;96.0;21.6;IN;Barcelona (parc de la Vall d'Hebron)
+Les Planes;LP;41.42740264, 2.0916176;MODERAT;13.0;96.0;21.6;IN;Barcelona (parc de la Vall d'Hebron)
+La Floresta;LF;41.44487408, 2.073166144;MODERAT;7.0;92.0;;AT;Sant Cugat del Vallès (parc de Sant Francesc)
+Universitat Autònoma;UN;41.50285282, 2.102510441;BO;14.0;;;B9;Barberà del Vallès (Moragues - Montserrat)
+Sant Quirze;SQ;41.52999155, 2.088722533;BO;14.0;;;B9;Barberà del Vallès (Moragues - Montserrat)
+Pl. Molina;PM;41.4016938, 2.146754722;MODERAT;40.0;70.0;;IJ;Barcelona (Gràcia - Sant Gervasi)
+Av. Tibidabo;TB;41.40964799, 2.137162791;MODERAT;40.0;70.0;;IJ;Barcelona (Gràcia - Sant Gervasi)
+Pl. Espanya;PE;41.3747199, 2.148458333;MODERAT;23.0;81.0;19.8;IH;Barcelona (l'Eixample)
+Quatre Camins;QC;41.40629238, 2.001715183;BO;9.0;;;IP;Sant Vicenç dels Horts (Àlaba)
+Abrera;AB;41.52256137, 1.906805399;MODERAT;16.0;;28.2;IC;Sant Andreu de la Barca (CEIP Josep Pla)
+Sant Esteve Sesrovires;SE;41.49767605, 1.8724438;MODERAT;16.0;;28.2;IC;Sant Andreu de la Barca (CEIP Josep Pla)
+Sant Vicenç-Castellgalí;SV;41.66791016, 1.8596058;;;;;sense valors;
+Manresa-Baixador;MB;41.731457, 1.827904;;;;;sense valors;
+Can Parellada;CP;41.50222357, 1.830813063;MODERAT;16.0;;28.2;IC;Sant Andreu de la Barca (CEIP Josep Pla)
+Capellades;CA;41.52153533, 1.695130725;;;;;sense valors;
+Vallvidrera Inferior;VR;41.409328, 2.111263;MODERAT;13.0;96.0;21.6;IN;Barcelona (parc de la Vall d'Hebron)
+Balaguer;BG;41.789215, 0.814761;;;;;sense valors;
+Europa | Fira;EU;41.35655892, 2.124199344;MODERAT;8.0;;24.1;I3;l'Hospitalet de Llobregat (av. del Torrent Gornal)
+Vallparadís Universitat;VP;41.5633063, 2.0190489;BO;14.0;;;B9;Barberà del Vallès (Moragues - Montserrat)
+La Creu Alta;CT;41.554954, 2.100385;BO;14.0;;;B9;Barberà del Vallès (Moragues - Montserrat)
+Palau de Noguera;PT;42.147002, 0.892435;;;;;sense valors;
+Vallfogona de Balaguer;VF;41.755094, 0.805247;;;;;sense valors;
+Santa Linya;SN;41.93156, 0.852312;;;;;sense valors;
+Tremp;TP;42.167348, 0.891057;;;;;sense valors;
+Vilanova de la Barca;VB;41.687347, 0.727903;;;;;sense valors;
+Guardia de Tremp;GT;42.101399, 0.88809;;;;;sense valors;
+Provença;PR;41.39281434, 2.158030869;MODERAT;40.0;70.0;;IJ;Barcelona (Gràcia - Sant Gervasi)
+Sarrià;SR;41.39849938, 2.125574875;BO;7.0;;;ID;Barcelona (Sants)
+Reina Elisenda;RE;41.39874599, 2.118932325;BO;7.0;;;ID;Barcelona (Sants)
+Peu del Funicular;PF;41.40921616, 2.111181541;MODERAT;13.0;96.0;21.6;IN;Barcelona (parc de la Vall d'Hebron)
+Valldoreix;VD;41.45784156, 2.06831203;MODERAT;7.0;92.0;;AT;Sant Cugat del Vallès (parc de Sant Francesc)
+Sant Cugat Centre;SC;41.46791038, 2.078203288;MODERAT;7.0;92.0;;AT;Sant Cugat del Vallès (parc de Sant Francesc)
+Mira-Sol;MS;41.46936873, 2.061380927;MODERAT;7.0;92.0;;AT;Sant Cugat del Vallès (parc de Sant Francesc)
+Hospital General;HG;41.47620923, 2.046514894;MODERAT;7.0;92.0;;AT;Sant Cugat del Vallès (parc de Sant Francesc)
+Rubí Centre;RB;41.48628798, 2.031357969;MODERAT;7.0;92.0;;AT;Sant Cugat del Vallès (parc de Sant Francesc)
+Terrassa - Rambla;TR;41.55974631, 2.007525272;BO;14.0;;;B9;Barberà del Vallès (Moragues - Montserrat)
+Sant Joan;SJ;41.49015388, 2.076498641;MODERAT;7.0;92.0;;AT;Sant Cugat del Vallès (parc de Sant Francesc)
+Can Feu - Gràcia;CF;41.542522966, 2.100463866;BO;14.0;;;B9;Barberà del Vallès (Moragues - Montserrat)
+Sabadell Plaça Major;PJ;41.5474198, 2.1088815;BO;14.0;;;B9;Barberà del Vallès (Moragues - Montserrat)
+Pàdua;PD;41.40351065, 2.142759094;MODERAT;40.0;70.0;;IJ;Barcelona (Gràcia - Sant Gervasi)
+El Putxet;EP;41.40582569, 2.139151477;MODERAT;40.0;70.0;;IJ;Barcelona (Gràcia - Sant Gervasi)
+Ildefons Cerdà;IC;41.36090867, 2.130023266;MODERAT;8.0;;24.1;I3;l'Hospitalet de Llobregat (av. del Torrent Gornal)
+Sant Josep;SP;41.36070098, 2.10991665;MODERAT;8.0;;24.1;I3;l'Hospitalet de Llobregat (av. del Torrent Gornal)
+Sant Boi;BO;41.34856143, 2.042855988;MODERAT;11.0;96.0;;G5;El Prat de Llobregat (CEM Sagnier)
+Martorell Enllaç;ME;41.48396936, 1.918677519;MODERAT;16.0;;28.2;IC;Sant Andreu de la Barca (CEIP Josep Pla)
+La Beguda;BE;41.5017639, 1.838788972;MODERAT;16.0;;28.2;IC;Sant Andreu de la Barca (CEIP Josep Pla)
+Monistrol de Montserrat;MO;41.6103596, 1.84919403;;;;;sense valors;
+Manresa-Alta;MA;41.73224, 1.832986;;;;;sense valors;
+Masquefa;MQ;41.502884, 1.812625072;MODERAT;16.0;;28.2;IC;Sant Andreu de la Barca (CEIP Josep Pla)
+Piera;PI;41.52591339, 1.75450443;;;;;sense valors;
+Vilanova del Camí;VN;41.57331472, 1.642009216;;;;;sense valors;
+Montserrat;MM;41.59225373, 1.836497527;;;;;sense valors;
+Vallvidrera Superior;VS;41.414111713828, 2.1058163381683;MODERAT;13.0;96.0;21.6;IN;Barcelona (parc de la Vall d'Hebron)
+Lleida;LE;41.620098, 0.633672;;;;;sense valors;
+Salàs de Pallars;SD;42.206835, 0.940463;;;;;sense valors;
+Martorell Central;MC;41.4792845, 1.925294975;MODERAT;16.0;;28.2;IC;Sant Andreu de la Barca (CEIP Josep Pla)
+Volpelleres;VO;41.481248, 2.072928;MODERAT;7.0;92.0;;AT;Sant Cugat del Vallès (parc de Sant Francesc)
+Terrassa Nacions Unides;NA;41.5801339, 2.0134592;BO;14.0;;;B9;Barberà del Vallès (Moragues - Montserrat)
+Vilanova de la Sal;LS;41.91207, 0.830401;;;;;sense valors;
+Alcoletge;AT;41.654738, 0.686458;;;;;sense valors;
