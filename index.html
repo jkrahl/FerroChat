@@ -100,10 +100,6 @@
      
 
 
-
-
-
-
      /* curl https://api.openai.com/v1/threads \
       *   -H "Content-Type: application/json" \
       *   -H "Authorization: Bearer {api_key}"\
@@ -179,7 +175,8 @@
      
 //    const thread_id = "thread_VbRuXwOkLzkdlTLQa4CjLiE5";
        
-const thread_id = "thread_BbFJM4bw4i87LO5ltYb3pkeo";
+// const thread_id = "thread_BbFJM4bw4i87LO5ltYb3pkeo";
+       const thread_id = "thread_M0hf36GzRZbNYrcyEJFaKsgE";
 
        console.log(`${api_key}`);
        fetch(`https://api.openai.com/v1/threads/${thread_id}/messages`, {
@@ -217,7 +214,7 @@ const thread_id = "thread_BbFJM4bw4i87LO5ltYb3pkeo";
 	     json => {
 	       fetch(`https://api.openai.com/v1/threads/${thread_id}/messages`, {
 		 headers: {
-		   Authorization: `Bearer ${api_key}`,
+		   'Authorization': `Bearer ${api_key}`,
 		   "Content-Type": "application/json",
 		   "Openai-Beta": "assistants=v2"
 		 }
