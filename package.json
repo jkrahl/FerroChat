@@ -10,6 +10,7 @@
   },
   "author": "Jan Krahl <jan.krahl@autonoma.cat>, David Sola <david.solam@autonoma.cat>, Daniel Qiu <haochengdaniel.qiu@autonoma.cat>",
   "devDependencies": {
+    "sass": "^1.77.2",
     "vite": "^5.2.0"
   }
 }
