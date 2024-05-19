@@ -97,39 +97,215 @@
        ':)' 
      ]
 
+     
+
+
+
+
+
+
+     /* curl https://api.openai.com/v1/threads \
+      *   -H "Content-Type: application/json" \
+      *   -H "Authorization: Bearer {api_key}"\
+      *   -H "OpenAI-Beta: assistants=v2" \
+      *   -d ''
+      * 
+      * curl https://api.openai.com/v1/threads/thread_IViyHhzU6yGJzf5pXu3EcStN/messages \
+      *   -H "Content-Type: application/json" \
+      *   -H "Authorization: Bearer {api_key}" \
+      *   -H "OpenAI-Beta: assistants=v2" \
+      *   -d '{
+      *       "role": "user",
+      *       "content": "s2 pasa por sarria?"
+      *     }'
+      * 
+      * curl https://api.openai.com/v1/threads/{thread_id}/runs \
+      *   -H "Authorization: Bearer {api_key}" \
+      *   -H "Content-Type: application/json" \
+      *   -H "OpenAI-Beta: assistants=v2" \
+      *   -d '{
+      *     "assistant_id": "{assistant_id}"
+      *   }'
+      * 
+      * curl https://api.openai.com/v1/threads/{thread_id} \
+      *   -H "Content-Type: application/json" \
+      *   -H "Authorization: Bearer {api_key}" \
+      *   -H "OpenAI-Beta: assistants=v2"
+      * https://api.openai.com/v1/threads/{thread_id}/messages
+      * 
+      * curl https://api.openai.com/v1/threads/{thread_id}/messages \
+      *   -H "Content-Type: application/json" \
+      *   -H "Authorization: Bearer {api_key}" \
+      *   -H "OpenAI-Beta: assistants=v2"
+      * 
+      * 
+      * curl https://api.openai.com/v1/threads/thread_IViyHhzU6yGJzf5pXu3EcStN/runs \
+      *   -H "Content-Type: application/json" \
+      *   -H "OpenAI-Beta: assistants=v2" \
+      *   -d '{
+      *     "assistant_id": "asst_FJbVXwdh6WiBA6yAQ6LniqOU"
+      *   }'
+      * 
+      * 
+      * 
+      * curl https://api.openai.com/v1/threads/thread_IViyHhzU6yGJzf5pXu3EcStN/messages \
+      *   -H "Content-Type: application/json" \
+      *   -H "OpenAI-Beta: assistants=v2" */
+
+
+
+
+
+
 
      function requestMessage(question) {
        if ($('.message-input').val() != '') {
 	 return false;
        }
 
+
+
+
+
        $('<div class="message loading new"><figure class="avatar"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/FGC_logo_%282019%29.svg/2048px-FGC_logo_%282019%29.svg.png" /></figure><span></span></div>').appendTo($('.mCSB_container'));
        updateScrollbar();
 
-       fetch("https://icanhazdadjoke.com/", {
+
+
+    const api_key = prompt("Enter key:");
+    const assistant_id = "asst_FJbVXwdh6WiBA6yAQ6LniqOU";
+
+//    const thread_id = "thread_IViyHhzU6yGJzf5pXu3EcStN";
+     
+//    const thread_id = "thread_VbRuXwOkLzkdlTLQa4CjLiE5";
+       
+const thread_id = "thread_BbFJM4bw4i87LO5ltYb3pkeo";
+
+       console.log(`${api_key}`);
+       fetch(`https://api.openai.com/v1/threads/${thread_id}/messages`, {
+	 body: {
+	   "role": "user",
+	   "content": `${question}`
+	 },
 	 headers: {
-	   Accept: "application/json"
-	 }
+	   'Authorization': `Bearer ${api_key}`,
+	   "Content-Type": "application/json",
+	   "Openai-Beta": "assistants=v2"
+	 },
+	 method: "POST"
        }).then(
-	 (response) => {
+	 response => {
 	   return response.json();
 	 }
-       ).then((json) => {
-	 $('.message.loading').remove();
-	 console.log(json)
-	 $('<div class="message new"><figure class="avatar"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/FGC_logo_%282019%29.svg/2048px-FGC_logo_%282019%29.svg.png" /></figure>' + json["joke"] + '</div>').appendTo($('.mCSB_container')).addClass('new');
+       ).then(
+	 json => {
+	   fetch(`https://api.openai.com/v1/threads/${thread_id}/runs`, {
+	     body: {
+	       "assistant_id": `${assistant_id}`
+	     },
+	     headers: {
+	       'Authorization': `Bearer ${api_key}`,
+	       'Content-Type': "application/json",
+	       'Openai-Beta': "assistants=v2"
+	     },
+	     method: "POST"
+	   }).then(
+	     response => {
+	       return response.json();
+	     }
+	   ).then(
+	     json => {
+	       fetch(`https://api.openai.com/v1/threads/${thread_id}/messages`, {
+		 headers: {
+		   Authorization: `Bearer ${api_key}`,
+		   "Content-Type": "application/json",
+		   "Openai-Beta": "assistants=v2"
+		 }
+	       }).then(
+		 response => {
+		   return response.json();
+	       }).then(
+		 json => {
+		   console.log(json);
+		   const chatResponse = json.data[0].content[0].text.value;
 
-	 setDate();
-	 updateScrollbar();
-	 i++;
-       })
-       //  setTimeout(function() {
-       //    $('.message.loading').remove();
-       //    $('<div class="message new"><figure class="avatar"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/FGC_logo_%282019%29.svg/2048px-FGC_logo_%282019%29.svg.png" /></figure>' + Fake[i] + '</div>').appendTo($('.mCSB_container')).addClass('new');
-       //    setDate();
-       //    updateScrollbar();
-       //    i++;
-       //  }, 500 + (Math.random() * 20) * 100);
+
+		   $('.message.loading').remove();
+		   $('<div class="message new"><figure class="avatar"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/FGC_logo_%282019%29.svg/2048px-FGC_logo_%282019%29.svg.png" /></figure>' + chatResponse + '</div>').appendTo($('.mCSB_container')).addClass('new');
+		   
+		   setDate();
+		   updateScrollbar();
+		   i++;
+
+		 }
+	       )
+	     }
+	   )
+	 }
+       );
+
+
+
+
+
+
+
+
+
+
+     /* const apiUrl = 'https://api.openai.com/v1/threads';
+      * 
+      * fetch(apiUrl, {
+ 	method: 'POST',
+ 	headers: {
+ 	'Content-Type': 'application/json',
+ 	'Authorization': `Bearer ${apiKey}`,
+ 	},
+ 	body: JSON.stringify({
+ 	"messages": [{
+ 	"role": "assistant",
+ 	"content": "Eres el asistente virtual de los ferrocarriles de la Generalitat de Catalunya."
+ 	}, {
+ 	"role": "user",
+ 	"content": question,
+ 	}]
+ 	})
+      * }).then(response => {
+ 	if(!response.ok) {
+ 	throw new Error(`HTTP error! status: ${response.status}`);
+ 	}
+ 	return response.json();
+      * }).then(json => {
+	console.log(json);
+ 	const chatResponse = json["data"];
+ 	$('.message.loading').remove();
+ 	$('<div class="message new"><figure class="avatar"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/FGC_logo_%282019%29.svg/2048px-FGC_logo_%282019%29.svg.png" /></figure>' + chatResponse + '</div>').appendTo($('.mCSB_container')).addClass('new');
+	
+ 	setDate();
+ 	updateScrollbar();
+ 	i++;
+      * }).catch(error => {
+ 	console.error('Error:', error);
+      * });
+      * 
+
+      * /* fetch("https://icanhazdadjoke.com/", {
+	headers: {
+	Accept: "application/json"
+	}
+      * }).then(
+	(response) => {
+	return response.json();
+	}
+      * ).then((json) => {
+	$('.message.loading').remove();
+	console.log(json)
+	$('<div class="message new"><figure class="avatar"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/FGC_logo_%282019%29.svg/2048px-FGC_logo_%282019%29.svg.png" /></figure>' + json["joke"] + '</div>').appendTo($('.mCSB_container')).addClass('new');
+
+	setDate();
+	updateScrollbar();
+	i++;
+      * }) */
 
      }
 
