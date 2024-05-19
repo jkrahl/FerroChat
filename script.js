@@ -34,7 +34,7 @@ function insertMessage() {
   $('.message-input').val(null);
   updateScrollbar();
   setTimeout(function() {
-    requestMessage();
+    requestMessage(msg);
   }, 0);
 }
 
@@ -68,7 +68,7 @@ var Fake = [
 ]
 
 
-function requestMessage() {
+function requestMessage(question) {
   if ($('.message-input').val() != '') {
     return false;
   }
